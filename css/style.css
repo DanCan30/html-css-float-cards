@@ -11,6 +11,12 @@ body {
     font-family: 'Mitr', sans-serif;
 }
 
+.clearfix:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
 .container {
     width: 70%;
     margin: 0 auto;
@@ -41,7 +47,6 @@ main {
     float: left;
     margin: 20px;
     width: calc(100% / 3 - 40px);
-    height: 150px;
     background-color: #0F0E17;
     color: white;
     box-shadow: 0 0 15px 10px lightgrey;
@@ -49,9 +54,15 @@ main {
 
 main img {
     float: left;
-    width: 150px;
-    margin-right: 20px;
+    width: 30%;
     text-align: center;
+}
+
+.card-infos {
+    float: left;
+    width: calc(70% - 20px);
+    margin-left: 20px;
+    margin-top: 14px;
 }
 
 .card_component {
