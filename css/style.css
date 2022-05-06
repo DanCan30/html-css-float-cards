@@ -62,13 +62,12 @@ main img {
     float: left;
     width: calc(70% - 20px);
     margin-left: 20px;
-    margin-top: 14px;
+    margin-top: 13px;
 }
 
 .card_component {
-    height: calc(100% / 3);
     text-align: left;
-    line-height: 45px;
+    line-height: 50px;
     font-size: 180%;
 }
 
